@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ACAF0D4028B253AA007DE548 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACAF0D3F28B253AA007DE548 /* HeaderView.xib */; };
+		ACAF0D4228B256A8007DE548 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAF0D4128B256A8007DE548 /* HeaderView.swift */; };
 		ACAF0D4428B25777007DE548 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAF0D4328B25777007DE548 /* UIView.swift */; };
 		ACAF0D4628B257AB007DE548 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAF0D4528B257AB007DE548 /* TableView.swift */; };
+		ACAF0D4A28B26702007DE548 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAF0D4928B26702007DE548 /* BlurView.swift */; };
+		ACAF0D4C28B26988007DE548 /* BlurView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACAF0D4B28B26988007DE548 /* BlurView.xib */; };
 		ACE8D7D628B2463800CF5EF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE8D7D528B2463800CF5EF0 /* AppDelegate.swift */; };
 		ACE8D7D828B2463800CF5EF0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE8D7D728B2463800CF5EF0 /* SceneDelegate.swift */; };
 		ACE8D7DA28B2463800CF5EF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE8D7D928B2463800CF5EF0 /* ViewController.swift */; };
@@ -18,8 +22,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ACAF0D3F28B253AA007DE548 /* HeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		ACAF0D4128B256A8007DE548 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		ACAF0D4328B25777007DE548 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		ACAF0D4528B257AB007DE548 /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
+		ACAF0D4928B26702007DE548 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		ACAF0D4B28B26988007DE548 /* BlurView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BlurView.xib; sourceTree = "<group>"; };
 		ACE8D7D228B2463800CF5EF0 /* test int.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "test int.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACE8D7D528B2463800CF5EF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACE8D7D728B2463800CF5EF0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +78,10 @@
 			isa = PBXGroup;
 			children = (
 				ACE8D7D928B2463800CF5EF0 /* ViewController.swift */,
+				ACAF0D3F28B253AA007DE548 /* HeaderView.xib */,
+				ACAF0D4128B256A8007DE548 /* HeaderView.swift */,
+				ACAF0D4B28B26988007DE548 /* BlurView.xib */,
+				ACAF0D4928B26702007DE548 /* BlurView.swift */,
 				ACAF0D4D28B269F6007DE548 /* Utils */,
 				ACE8D7EB28B2528800CF5EF0 /* Support */,
 			);
@@ -150,6 +162,8 @@
 				ACE8D7E228B2463A00CF5EF0 /* LaunchScreen.storyboard in Resources */,
 				ACE8D7DF28B2463A00CF5EF0 /* Assets.xcassets in Resources */,
 				ACE8D7DD28B2463800CF5EF0 /* Main.storyboard in Resources */,
+				ACAF0D4028B253AA007DE548 /* HeaderView.xib in Resources */,
+				ACAF0D4C28B26988007DE548 /* BlurView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,10 +175,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACAF0D4428B25777007DE548 /* UIView.swift in Sources */,
+				ACAF0D4A28B26702007DE548 /* BlurView.swift in Sources */,
 				ACAF0D4628B257AB007DE548 /* TableView.swift in Sources */,
 				ACE8D7DA28B2463800CF5EF0 /* ViewController.swift in Sources */,
 				ACE8D7D628B2463800CF5EF0 /* AppDelegate.swift in Sources */,
 				ACE8D7D828B2463800CF5EF0 /* SceneDelegate.swift in Sources */,
+				ACAF0D4228B256A8007DE548 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
